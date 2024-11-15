@@ -1,0 +1,11 @@
+.carousel-item img {
+    height: 50vh; 
+    
+}
+
+article{
+    background: #ecceab;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+}
