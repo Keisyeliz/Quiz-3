@@ -5,32 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Animalover</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="assets/carru-2.png" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="assets/carru-3.png" class="d-block w-100" alt="Music image">
-                </div>
-                
-                
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -47,13 +25,13 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Más informacion
+                      Dropdown link
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="pagina1.html">Ballenas</a></li>
                       <li><a class="dropdown-item" href="pagina2.html">Contactanos</a></li>
                       <li><a class="dropdown-item" href="pagina3.html">Reseñas</a></li>
-                      
+                    
                     </ul>
                   </li>
                 </ul>
@@ -62,18 +40,35 @@
           </nav>
     </header>
 
-    <section class="container " >
-        <article class="col-sm-12 col-10">
+    <section class="container ballenas">
+        <section class="text-center mb-4">
+            <h1>Explora el Mundo de las Ballenas</h1>
+            <p>Las ballenas son criaturas impresionantes de los océanos, conocidas por su gran tamaño, inteligencia y complejas vocalizaciones. Sumérgete en su mundo y aprende más sobre su comportamiento, hábitat y conservación.</p>
+        </section>
+    
+        <section class="row">
+            <div class="col-md-4 mb-3">
+                <img src="assets/balle-azul.png" class="img-fluid rounded" alt="Imagen de una ballena azul">
+                <h3 class="mt-2">Ballena Azul</h3>
+                <p>El animal más grande del planeta, la ballena azul recorre los océanos y puede alcanzar hasta 30 metros de longitud. Y tiene un precio de un billón de dolares</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="assets/orca.png" class="img-fluid rounded" alt="Imagen de una orca">
+                <h3 class="mt-2">Orca</h3>
+                <p>Conocidas también como "ballenas asesinas", las orcas son depredadores inteligentes y viven en grupos familiares llamados manadas. Cuenta con un precio de dos billones de dolares</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="assets/balle-jo.png" class="img-fluid rounded" alt="Imagen de una ballena jorobada">
+                <h3 class="mt-2">Ballena Jorobada</h3>
+                <p>Famosas por sus saltos espectaculares y cantos complejos, estas ballenas migran miles de kilómetros cada año. Esta tiene un precio de un billón y medio de dolares</p>
+            </div>
 
-            <h1>Bienvenido a Nuestro Rincón de Fauna Asombrosa (Trafico de animales)</h1>
-                <p>Explora el fascinante mundo de la vida marina. Aquí encontrarás:</p>
-                <ul>
-                    <li><strong>Ballenas</strong>: aprende sobre estas impresionantes criaturas marinas, sus hábitats, comportamiento y conservación.</li>
-                </ul>
-                <p>¡Disfruta navegando por nuestras secciones y descubre todo sobre estos increíbles animales, cuando acabes de observar las cualidades de los animales puedes decidir cual quieres adquirir!</p>
-
-        </article>
+            
+        </section>
     </section>
+    
+    
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

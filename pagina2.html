@@ -5,32 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Animalover</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="assets/carru-2.png" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="assets/carru-3.png" class="d-block w-100" alt="Music image">
-                </div>
-                
-                
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -47,13 +25,13 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Más informacion
+                      Dropdown link
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="pagina1.html">Ballenas</a></li>
                       <li><a class="dropdown-item" href="pagina2.html">Contactanos</a></li>
                       <li><a class="dropdown-item" href="pagina3.html">Reseñas</a></li>
-                      
+                    
                     </ul>
                   </li>
                 </ul>
@@ -62,17 +40,33 @@
           </nav>
     </header>
 
-    <section class="container " >
+
+    <section>
         <article class="col-sm-12 col-10">
+            <h1>Formulario de Contacto</h1>
+                
 
-            <h1>Bienvenido a Nuestro Rincón de Fauna Asombrosa (Trafico de animales)</h1>
-                <p>Explora el fascinante mundo de la vida marina. Aquí encontrarás:</p>
-                <ul>
-                    <li><strong>Ballenas</strong>: aprende sobre estas impresionantes criaturas marinas, sus hábitats, comportamiento y conservación.</li>
-                </ul>
-                <p>¡Disfruta navegando por nuestras secciones y descubre todo sobre estos increíbles animales, cuando acabes de observar las cualidades de los animales puedes decidir cual quieres adquirir!</p>
+                <img src="assets/icons8-whale-96.png" alt="Logo de la empresa">
 
-        </article>
+                <p>Contacto: 0123456789</p>
+                <p>Dirección: Anonima</p>
+                <p>Email: @Animalovers.com</p>
+
+            <form action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Escriba su correo">
+
+                <label for="producto">Producto:</label>
+                <input type="text" id="edad" name="producto">
+
+                
+                <input type="submit" value="Enviar">
+                
+            </form>
+    </article>
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
